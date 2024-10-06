@@ -4,7 +4,7 @@
 
 This project is a simple landing page implementation for a veterinary clinic.
 
-<a href=" https://jomath363.github.io/simple-landing-page/"> Go to the project</a>
+<a href="https://jomath363.github.io/simple-landing-page/"> Go to the project</a>
 
 **✨ Features:**
 
