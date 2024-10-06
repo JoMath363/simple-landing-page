@@ -1,0 +1,5 @@
+Página Inicial: Destaque promoções, produtos em destaque e uma introdução ao seu negócio.
+Produtos: Lista de produtos disponíveis, com categorias como ração, brinquedos, acessórios e cuidados.
+Serviços: Se você oferece serviços como banho e tosa, pet sitting, ou adestramento, inclua uma seção dedicada a esses serviços.
+Sobre Nós: Informações sobre a história do pet shop, missão e equipe.
+Blog: Artigos sobre cuidados com pets, dicas de treinamento e saúde animal.

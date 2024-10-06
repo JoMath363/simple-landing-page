@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+@import url(header.css);
+@import url(cta.css);
+@import url(services.css);
+@import url(appointment.css);
+
+:root {
+    --primary: #392A48;
+    --secondary: #6d4596;
+    --accent: #ffffff;
+    --background: #f9f9fb;
+    --background2: #dddddd;
+    --subtext: #535961;
+    --text: #24272b;
+}
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+
+    scroll-behavior: smooth;
+    scroll-margin-top: 4.5rem;
+}
+
+body {
+    background: var(--background);
+
+    color: var(--text);
+
+    font-family: "Libre Franklin", sans-serif;
+}
+
+.default-btn {
+    padding: 0.5rem 1rem;
+
+    background: var(--secondary);
+    border: 1px var(--secondary) solid;
+    border-radius: 0.5rem;
+
+    color: var(--accent);
+    font-size: 1rem;
+    text-align: center;
+
+    cursor: pointer;
+}
+
+.default-btn:hover {
+    background: var(--secondary);
+    border: 1px var(--accent) solid;
+}
