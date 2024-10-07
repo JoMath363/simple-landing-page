@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="png" href="img/logo-icon.png">
+    <title>Pet Paradise</title>
+</head>
+
+<body>
+    <header id="header">
+        <div id="header-logo">
+            <img src="img/logo-icon.png">
+            <h2>Pet Paradise</h2>
+        </div>
+
+        <nav id="navbar">
+            <a class="nav-item" href="#info">Início</a>
+            <a class="nav-item" href="#services">Serviços</a>
+            <a class="nav-item" href="#appointment">Agendamento</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="info">
+            <div class="adress">
+                <img src="img/adress-icon.png">
+                <p class="adress-text">Rua dos Animais, 1234 - Bairro Jardim Pet, Osasco, SP, Brasil - CEP 06000-000</p>
+            </div>
+
+
+            <div class="contact">
+                <a href="#"><img src="img/whatsapp-icon.png"></a>
+                <a href="#"><img src="img/facebook-icon.png"></a>
+                <a href="#"><img src="img/instagram-icon.png"></a>
+            </div>
+        </section>
+
+        <section id="cta">
+            <div class="cta-content">
+                <h2 class="cta-title">Cuide de Quem Cuida de Você</h2>
+                <p class="cta-desc">Oferecemos cuidados veterinários especializados para manter seu pet saudável e
+                    feliz.</p>
+                <a href="#appointment" class="default-btn">Agendar Consulta</a>
+            </div>
+        </section>
+
+        <section id="services">
+            <h2 class="services-title">Nossos Serviços Veterinários</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <img class="card-icon" src="../img/service1.png">
+                    <h3 class="card-tittle">Consultas Veterinárias</h3>
+                    <p class="card-desc">
+                        Nossas consultas oferecem avaliações completas da saúde do seu pet,
+                        com foco em prevenção e diagnóstico precoce de problemas. Cuidamos de todas as etapas,
+                        desde check-ups de rotina até consultas especializadas.
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <img class="card-icon" src="../img/service2.png">
+                    <h3 class="card-tittle">Vacinação</h3>
+                    <p class="card-desc">
+                        Proteja seu pet com nosso calendário de vacinas. Oferecemos as vacinas essenciais para cães e
+                        gatos,
+                        garantindo imunidade contra as doenças mais comuns e perigosas.
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <img class="card-icon" src="../img/service3.png">
+                    <h3 class="card-tittle">Cirurgias</h3>
+                    <p class="card-desc">
+                        Realizamos desde procedimentos de castração até cirurgias de emergência, sempre com o máximo de
+                        cuidado e segurança.
+                        Nossa equipe é especializada para oferecer o melhor tratamento cirúrgico ao seu pet.
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <img class="card-icon" src="../img/service4.png">
+                    <h3 class="card-tittle">Exames Laboratoriais</h3>
+                    <p class="card-desc">
+                        Contamos com exames laboratoriais completos, como análises de sangue, urina e parasitas.
+                        Isso nos permite detectar doenças e garantir o diagnóstico preciso e rápido.
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <img class="card-icon" src="../img/service5.png">
+                    <h3 class="card-tittle">Diagnóstico por Imagem</h3>
+                    <p class="card-desc">
+                        Utilizamos tecnologias avançadas de diagnóstico por imagem, como raio-X e ultrassonografia,
+                        para avaliar internamente a saúde do seu pet e garantir o tratamento adequado.
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <img class="card-icon" src="../img/service6.png">
+                    <h3 class="card-tittle">Emergência 24 horas</h3>
+                    <p class="card-desc">
+                        Oferecemos atendimento emergencial 24h para situações críticas.
+                        Estamos prontos para agir rapidamente e fornecer cuidados imediatos quando seu pet mais
+                        precisar.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="appointment">
+            <h2 class="appointment-title">Agende Sua Consulta</h2>
+
+            <form id="appointment-form">
+                <did class="form-content">
+                    <h3 class="form-title">Informações do Pet</h3>
+
+                    <label for="petName_input">Nome:</label>
+                    <input id="petName_input" type="text" required placeholder="Ex: Pipoca">
+
+                    <label for="type_input">Espécie:</label>
+                    <input id="type_input" type="text" required placeholder="Ex: Cachorro">
+
+                    <label for="breed_input">Raça:</label>
+                    <input id="breed_input" type="text" required placeholder="Ex: Bulldog">
+
+                    <label for="age_input">Idade:</label>
+                    <input id="age_input" type="text" required placeholder="Ex: 2 anos">
+
+                    <label for="age_input">Gênero:</label>
+                    <input id="age_input" type="text" required placeholder="Ex: Macho">
+                </did>
+
+                <did class="form-content">
+                    <h3 class="form-title">Informações do Dono</h3>
+
+                    <label for="ownerName_input">Nome:</label>
+                    <input id="ownerName_input" type="text" required placeholder="Ex: José Mathias">
+
+                    <label for="email_input">Email:</label>
+                    <input id="email_input" type="text" required placeholder="Ex: email@email.com">
+
+                    <label for="age_input">Telefone:</label>
+                    <input id="age_input" type="text" required placeholder="Ex: (00) 0000-00000">
+
+                    <label for="adress_input">Endereço:</label>
+                    <input id="adress_input" type="text" required placeholder="Ex: rua, 123, cidade - estado">
+
+                    <label for="adress_input">Data da Consulta:</label>
+                    <input id="adress_input" type="date" required placeholder="Ex: rua, 123, cidade - estado">
+                </did>
+
+                <did class="form-content">
+                    <h3 class="form-title">Termos de Uso</h3>
+
+                    <p class="form-terms">
+                        Ao enviar este formulário, confirmo que as informações fornecidas estão corretas e compreendo
+                        que o agendamento está sujeito à confirmação pela equipe da clínica veterinária. Entendo que a
+                        data e o horário solicitados podem ser alterados conforme a disponibilidade, e estou ciente de
+                        que é minha responsabilidade comparecer na data agendada ou notificar com antecedência em caso
+                        de cancelamento.
+                    </p>
+
+                    <span id="accept_terms"><input type="checkbox" required> Concordar com termos de uso.</span>
+
+                    <input class="default-btn" type="submit" value="Agendar">
+                </did>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div id="footer-logo">
+            <img src="img/logo-icon.png">
+            <h2>Pet Paradise</h2>
+        </div>
+
+        <p class="footer-text">
+            Nossa clínica oferece atendimento completo para o seu pet, com serviços de consultas, vacinas, cirurgias e
+            emergências 24h. Entre em contato para agendar uma consulta ou saber mais sobre como podemos cuidar da saúde
+            e bem-estar do seu animal.
+        </p>
+
+        <div id="credits">
+            <h3>Developed by: José Mathias </h3>
+            <div id="contact">
+                <a href="https://github.com/JoMath363" target="_blank"><img src="img/github-icon.png" alt="Gituub"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
