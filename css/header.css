@@ -15,16 +15,16 @@ header {
     color: var(--accent);
 }
 
-#logo {
+#header-logo {
     display: flex;
     align-items: center;
     gap: 1rem;
 
-    & .logo-icon {
+    & img {
         height: 2.2rem;
     }
 
-    & .logo-title {
+    & h2 {
         font-size: 1.5rem;
     }
 }
@@ -37,6 +37,8 @@ header {
     scroll-behavior: smooth;
     
     & .nav-item {
+        border-bottom: 2px transparent solid;
+
         color: var(--accent);
         font-size: 1rem;
         text-decoration: none;
